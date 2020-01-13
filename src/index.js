@@ -1,1 +1,1 @@
-console.log('TELEEE MALO');
+console.log('nesto');
