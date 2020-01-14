@@ -4,6 +4,7 @@ function homePage() {
   let img = document.createElement("img");
   img.src = "../src/assets/food_plate.jpg";
   let src = document.getElementById("content");
+  src.innerHTML = "";
   src.appendChild(img);
 
   let description = document.createElement("p");
