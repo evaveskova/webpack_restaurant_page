@@ -1,11 +1,13 @@
-let img = document.createElement("img");
-img.src = "../src/assets/food_plate.jpg";
-let src = document.getElementById("content");
-src.appendChild(img);
+import "./style.css"
 
 let header = document.createElement("h1");
 header.textContent = "The World's Greatest Restaurant";
 document.getElementById("content").appendChild(header);
+
+let img = document.createElement("img");
+img.src = "../src/assets/food_plate.jpg";
+let src = document.getElementById("content");
+src.appendChild(img);
 
 let description = document.createElement("p");
 description.textContent = `Do you like food? Great! Because we have lots of it.
