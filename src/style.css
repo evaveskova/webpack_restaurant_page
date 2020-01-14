@@ -4,11 +4,33 @@ body {
 }
 
 #content {
-  display: inline-block;
+  display: block;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   text-align: center;
   width: 100%;
-  position: absolute;
+}
+
+#nav {
+  display: inline-flex;
+  width: 100%;
+  padding: 30px;
+}
+
+#nav a {
+  background-color: #0F0F0F;
+  border: 0px;
+  color: #F2F2F2;
+  padding: 23px;
+  font-size: 30px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#nav a:hover {
+  background-color: red;
+}
+
+h1 {
+padding-right: 100px;
 }
 
 img {
@@ -19,10 +41,6 @@ img {
   top: 0;
   bottom: 0;
   float: left;
-}
-
-h1 {
-  padding-bottom: 30px;
 }
 
 p {
