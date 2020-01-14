@@ -1,5 +1,8 @@
 let img = document.createElement("img");
 img.src = "../src/assets/food_plate.jpg";
-var src = document.getElementById("content");
+let src = document.getElementById("content");
 src.appendChild(img);
-console.log("an image appeared!");
+
+let header = document.createElement("h1");
+header.textContent = "The World's Greatest Restaurant";
+document.getElementById("content").appendChild(header);
