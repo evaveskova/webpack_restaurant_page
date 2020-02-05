@@ -1,6 +1,7 @@
-import "./style.css"
-import homePage from "./home.js"
+import './style.css'
+import homePage from './home.js'
 import menuPage from './menu.js'
+import contactPage from './contact.js'
 
 let header = document.createElement("h1");
 header.textContent = "The World's Greatest Restaurant";
@@ -23,5 +24,8 @@ menuTab.addEventListener('click', () => {
 let contactTab = document.createElement("a");
 contactTab.textContent = "Contact Us";
 document.getElementById("nav").appendChild(contactTab);
+contactTab.addEventListener('click', () => {
+  contactPage();
+});
 
 homePage();
