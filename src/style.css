@@ -25,11 +25,7 @@ body {
 }
 
 #nav a:hover {
-  background-color: red;
-}
-
-.clicked {
-  background-color: red;
+  background-color: #B90000;
 }
 
 .home-container {
