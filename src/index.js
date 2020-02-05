@@ -1,5 +1,6 @@
 import "./style.css"
 import homePage from "./home.js"
+import menuPage from './menu.js'
 
 let header = document.createElement("h1");
 header.textContent = "The World's Greatest Restaurant";
@@ -9,12 +10,15 @@ let homeTab = document.createElement("a");
 homeTab.textContent = "Home";
 document.getElementById("nav").appendChild(homeTab);
 homeTab.addEventListener('click', () => {
-homePage();
+  homePage();
 });
 
 let menuTab = document.createElement("a");
 menuTab.textContent = "Menu";
 document.getElementById("nav").appendChild(menuTab);
+menuTab.addEventListener('click', () => {
+  menuPage();
+});
 
 let contactTab = document.createElement("a");
 contactTab.textContent = "Contact Us";

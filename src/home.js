@@ -14,7 +14,6 @@ function homePage() {
   sheep's intenstines, to a renowed, 5-star establishment with
   delightful, overpriced, tiny food. Enjoy!`;
   document.getElementById("content").appendChild(description);
-
   console.log("home");
 };
 
