@@ -28,6 +28,10 @@ body {
   background-color: red;
 }
 
+.clicked {
+  background-color: red;
+}
+
 .home-container {
   display: block;
 }

@@ -1,15 +1,15 @@
-import "./style.css"
+import './style.css';
 
 const menuPage = (() => {
-  const src = document.getElementById("content");
-  src.innerHTML = "";
+  const src = document.getElementById('content');
+  src.innerHTML = '';
 
   const menuContainer = document.createElement('DIV');
   menuContainer.classList.add('menu-container');
   src.appendChild(menuContainer);
 
   const menuHeader = document.createElement('H2');
-  menuHeader.textContent = 'Our Menu'
+  menuHeader.textContent = 'Our Menu';
   menuContainer.appendChild(menuHeader);
 
   const menuItem1 = document.createElement('P');
@@ -31,6 +31,6 @@ const menuPage = (() => {
   const menuItem5 = document.createElement('P');
   menuItem5.textContent = 'Trio of Chocolate Tarts';
   menuContainer.appendChild(menuItem5);
-})
+});
 
 export default menuPage;
