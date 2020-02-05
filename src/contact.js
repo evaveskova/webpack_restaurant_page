@@ -5,6 +5,7 @@ const contactPage = (() => {
   src.innerHTML = "";
 
   const contactContainer = document.createElement('DIV');
+  contactContainer.classList.add('contact-container');
   src.appendChild(contactContainer);
 
   const contactHeader = document.createElement('H2');

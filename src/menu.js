@@ -5,6 +5,7 @@ const menuPage = (() => {
   src.innerHTML = "";
 
   const menuContainer = document.createElement('DIV');
+  menuContainer.classList.add('menu-container');
   src.appendChild(menuContainer);
 
   const menuHeader = document.createElement('H2');
