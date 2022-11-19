@@ -16,7 +16,7 @@
     "eslint-plugin-import": "^2.20.1",
     "style-loader": "^1.1.2",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "tabsy-css": "^1.0.0"
